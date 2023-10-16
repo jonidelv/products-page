@@ -1,8 +1,4 @@
-# SFE take-home exercise
-
-Thank you for taking the time to work on our take-home exercise!
-
-## Getting Started
+# Getting Started
 
 First, run the development server:
 
