@@ -5,6 +5,11 @@ import { Sorting } from '~/utils/types'
 import { Fragment, Suspense } from 'react'
 import ProductGridItems from '../../../components/product-grid-items'
 
+export const metadata = {
+  title: 'My Store - category',
+  description: 'Ecommerce site',
+}
+
 const loadingList = Array.from({ length: 6 })
 
 export default async function CategoryPage({

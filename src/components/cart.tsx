@@ -36,11 +36,11 @@ export default function Cart() {
 
   return (
     <>
-      <button aria-label="Open cart" onClick={openCart} className="ml-2">
+      <button aria-label="Open cart" onClick={openCart} className="ml-2 open-cart">
         <OpenCart quantity={cartCount} />
       </button>
       <Transition show={isOpen}>
-        <Dialog onClose={closeCart} className="relative z-[999]">
+        <Dialog onClose={closeCart} className="relative z-[999] panel-cart">
           <Transition.Child
             as={Fragment}
             enter="transition-all ease-in-out duration-300"
@@ -63,7 +63,7 @@ export default function Cart() {
           >
             <Dialog.Panel
               className="fixed bottom-0 right-0 top-0 flex h-full w-full flex-col border-l p-6
-            backdrop-blur-xl border-neutral-700 bg-black/80 text-white md:w-[390px]"
+            backdrop-blur-xl border-neutral-700 bg-black/80 text-white md:w-[390px] cart-panel"
             >
               <div className="flex items-center justify-between">
                 <p className="text-lg font-semibold">My Cart</p>

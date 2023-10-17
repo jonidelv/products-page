@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "unit_test": "jest",
-    "e2e_test": "playwright test"
+    "e2e_test": "NEXT_PUBLIC_API_MOCKING=disabled playwright test"
   },
   "dependencies": {
     "@headlessui/react": "^1.7.17",

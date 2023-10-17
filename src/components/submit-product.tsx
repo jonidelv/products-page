@@ -31,7 +31,7 @@ export default function SubmitProduct({ product }: { product: Product }) {
         }}
         aria-label="Add to cart"
         className="relative flex w-full items-center justify-center rounded-full
-        bg-blue-600 p-4 tracking-wide text-white hover:opacity-90"
+        bg-blue-600 p-4 tracking-wide text-white hover:opacity-90 add-to-cart"
       >
         Add To Cart
       </button>

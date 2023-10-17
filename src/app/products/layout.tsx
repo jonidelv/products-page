@@ -3,6 +3,11 @@ import Header from '../../components/header'
 import Categories from '../../components/categories'
 import SortingList from '~/components/sorting'
 
+export const metadata = {
+  title: 'My Store - products',
+  description: 'Ecommerce site',
+}
+
 export default function ProductsLayout({ children }: { children: React.ReactNode }) {
   return (
     <Fragment>

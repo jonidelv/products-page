@@ -16,7 +16,7 @@ export default function FilterItem({ item }: { item: Category }) {
   newParams.delete('q')
 
   return (
-    <li className="mt-2 flex text-white" key={item.name}>
+    <li className="mt-2 flex text-white nav-category-item" key={item.name}>
       <DynamicTag
         href={createUrl(path, newParams)}
         className={clsx('w-full text-sm underline-offset-4 hover:underline hover:text-neutral-100', {

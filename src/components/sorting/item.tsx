@@ -21,7 +21,7 @@ export default function SortingItem({ item }: { item: Sorting }) {
   const DynamicTag = active ? 'p' : Link
 
   return (
-    <li className="mt-2 flex text-sm text-white" key={item.key}>
+    <li className="mt-2 flex text-sm text-white nav-sort-item" key={item.key}>
       <DynamicTag
         prefetch={!active ? false : undefined}
         href={href}

@@ -31,3 +31,7 @@ export type ProductPostItem = {
   id: number
   quantity: number
 }
+
+export type PostPayload = {
+  products: ProductPostItem[]
+}
